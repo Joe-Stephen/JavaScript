@@ -14,6 +14,7 @@ const diameter = function(radius){
     return 2 * radius;
 }
 
+//defining common function
 const calculate = function(radius, logic){
     let result = [];
     for(let i=0; i<radius.length; i++){
